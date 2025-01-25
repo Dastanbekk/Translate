@@ -1,9 +1,8 @@
-
 const run =document.getElementById("run")
 const translation_input =document.getElementById("translation_input")
 // console.log(select_first);
 
-run.addEventListener("click",(e)=>{
+run?.addEventListener("click",(e)=>{
     e.preventDefault()
     const select_first =document.getElementById("select_first").value
     const select_second =document.getElementById("select_second").value
