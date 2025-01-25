@@ -1,6 +1,5 @@
 const run =document.getElementById("run")
 const translation_input =document.getElementById("translation_input")
-// console.log(select_first);
 
 run?.addEventListener("click",(e)=>{
     e.preventDefault()
